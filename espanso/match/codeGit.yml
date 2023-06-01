@@ -1,0 +1,33 @@
+matches:
+
+  - trigger: "gst"
+    replace: "git status"
+    word: true
+
+  - trigger: "gaa"
+    replace: "git add $|$"
+    word: true
+
+  - trigger: "gco"
+    replace: "git checkout $|$"
+    word: true
+
+  - trigger: "gcm"
+    replace: "git commit -m $|$"
+    word: true
+
+  - trigger: "gca" 
+    replace: "git commit -am $|$"
+    word: true
+
+  - trigger: "gpl"
+    replace: "git pull"
+    word: true
+
+  - trigger: "gps"
+    replace: "git push"
+    word: true
+
+  - trigger: "gbr"
+    replace: "git branch"
+    word: true   

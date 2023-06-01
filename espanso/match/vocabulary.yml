@@ -1,0 +1,61 @@
+matches:
+
+  # Deutsche Umlaute
+  - trigger: "\"aa"
+    replace: "ä"
+
+  - trigger: "\"AA"
+    replace: "Ä"
+
+  - trigger: "\"oo"
+    replace: "ö"
+
+  - trigger: "\"OO"
+    replace: "Ö"
+
+  - trigger: "\"uu"
+    replace: "ü"
+
+  - trigger: "\"UU"
+    replace: "Ü"
+
+  - trigger: ":sss"
+    replace: "ß "
+
+    # Accent Français
+
+  - trigger: "`aa"
+    replace: "à"
+
+  - trigger: "`ee"
+    replace: "è"
+
+  - trigger: "`uu"
+    replace: "ù"
+
+  - trigger: "'ee"
+    replace: "é"
+
+  - trigger: "^aa"
+    replace: "â"
+
+  - trigger: "^ee"
+    replace: "ê"
+
+  - trigger: "^ii"
+    replace: "î"
+
+  - trigger: "^oo"
+    replace: "ô"
+
+  - trigger: "^uu"
+    replace: "û"
+
+  - trigger: ",cc"
+    replace: "ç"
+
+  - trigger: "\"ee"
+    replace: "ë"
+
+  - trigger: "\"ii"
+    replace: "ï"
