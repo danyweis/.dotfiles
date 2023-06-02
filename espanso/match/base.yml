@@ -1,21 +1,8 @@
-# espanso match file
-
+#  in windows under: C:\Users\{username}\AppData\Roaming\espanso\match\base.yml
+#  in linux under: ~/.config/espanso/match/base.yml
 # For a complete introduction, visit the official docs at: https://espanso.org/docs/
 
-# You can use this file to define the base matches (aka snippets)
-# that will be available in every application when using espanso.
-
-# Matches are substitution rules: when you type the "trigger" string
-# it gets replaced by the "replace" string.
 matches:
-  # Simple text replacement
-  - trigger: ":espanso"
-    replace: "Hi there!"
-
-  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
-
-  # But matches can also be dynamic:
-
   # Print the current date
   - trigger: ":date"
     replace: "{{mydate}}"
@@ -33,12 +20,3 @@ matches:
         type: shell
         params:
           cmd: "echo 'Hello from your shell'"
-
-  # And much more! For more information, visit the docs: https://espanso.org/docs/
-
-
-
-    # Work German
-
-
-    

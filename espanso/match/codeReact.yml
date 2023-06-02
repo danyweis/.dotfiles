@@ -1,0 +1,15 @@
+matches:
+    # react
+
+  - trigger: "::ed"
+    replace: "export default $|$;"
+
+  - trigger: "ccomp"
+    form: |
+      const [[ComponentName]] = ([[props]]) => {
+        return (
+          <[[Brack1]]>
+            
+          <[[Brack1]]/>
+        );
+      };
