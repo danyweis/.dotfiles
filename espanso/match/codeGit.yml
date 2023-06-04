@@ -1,11 +1,15 @@
 matches:
 
   - trigger: "gst"
-    replace: "git status"
+    replace: "git status\n"
     word: true
 
   - trigger: "gaa"
     replace: "git add $|$"
+    word: true
+
+  - trigger: "ga."
+    replace: "git add .\n"
     word: true
 
   - trigger: "gco"
@@ -13,11 +17,11 @@ matches:
     word: true
 
   - trigger: "gcm"
-    replace: "git commit -m $|$"
+    replace: "git commit -m \"$|$\""
     word: true
 
-  - trigger: "gca" 
-    replace: "git commit -am $|$"
+  - trigger: "gca"
+    replace: "git commit -am \"$|$\""
     word: true
 
   - trigger: "gpl"
@@ -30,4 +34,4 @@ matches:
 
   - trigger: "gbr"
     replace: "git branch"
-    word: true   
+    word: true

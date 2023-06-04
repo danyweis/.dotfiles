@@ -13,3 +13,7 @@ matches:
           <[[Brack1]]/>
         );
       };
+  
+
+  - trigger: "::irr"
+    replace: "import React from 'react';"
