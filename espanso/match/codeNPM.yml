@@ -1,0 +1,26 @@
+matches:
+
+  # - trigger: ":npm"
+  #   replace: "{{npm}}"
+  #   vars:
+  #     - name: npm
+  #       type: shell
+  #       params:
+  #         cmd: "npm init"
+  
+  # - trigger: ":npmsass"
+  #   replace: "{{npmsass}}"
+  #   vars:
+  #     - name: npmsass
+  #       type: shell
+  #       params:
+  #         cmd: "npm install gulp gulp-sass sass --save-dev"
+
+  - trigger: ":npm"
+    replace: "npm init"
+    word: true
+
+
+  - trigger: ":npmsass" 
+    replace: "npm install gulp gulp-sass sass --save-dev"
+    word: true
