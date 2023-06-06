@@ -20,7 +20,7 @@ matches:
     replace: "Ü"
 
   - trigger: ":sss"
-    replace: "ß "
+    replace: "ß"
 
     # Accent Français
 
