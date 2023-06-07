@@ -1,7 +1,8 @@
 # dotfiles
 ### Config files for the following:
 
- - polybar
+ - .XCompose used as espanso "replacement"
+    after making changes run "ibus restart"
  - vs code
  - espanso
  

@@ -1,0 +1,6 @@
+<Multi_key> <t> <y> : "thank you"
+<Multi_key> <g> <s> <t> : "git status"
+<Multi_key> <g> <c> <m> : "git commit -m"
+<Multi_key> <g> <a> <a> : "git add"
+<Multi_key> <g> <a> <.> : "git add ."
+<Multi_key> <r> <u> <c> <k> <m> <e> <l> <d> <u> <n> <g> : "Danke für die Rückmeldung und Bestätigung"
