@@ -1,4 +1,4 @@
-# dot_files
+# dotfiles
 ### Config files for the following:
 
  - polybar
