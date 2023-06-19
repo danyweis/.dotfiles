@@ -1,0 +1,13 @@
+matches:
+
+  # ls -l:
+  - trigger: ":ls"
+    replace: "ls -l"
+    word: true
+
+  # ls -la:
+  - trigger: ":lsa"
+    replace: "ls -la"
+    word: true
+  
+  
